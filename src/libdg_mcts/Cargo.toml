@@ -14,7 +14,7 @@ crate-type = ["lib"]
 trace-mcts = []  # dump all finished search tree's to stderr
 
 [dependencies]
-crossbeam-channel = "0.3"
+crossbeam-channel = "0.4"
 crossbeam-utils = "0.6"
 dg_go = { path = "../libdg_go" }
 dg_nn = { path = "../libdg_nn" }
